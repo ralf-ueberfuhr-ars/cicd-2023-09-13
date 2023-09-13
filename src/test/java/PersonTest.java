@@ -8,7 +8,7 @@ public class PersonTest {
         var p = new Person();
         p.setName("Max");
         String result = p.sayHello();
-        Assertions.assertEquals("Hallo, ich bin Max!", result);
+        Assertions.assertEquals("Hallo, ich bin Max", result);
     }
 
 }
