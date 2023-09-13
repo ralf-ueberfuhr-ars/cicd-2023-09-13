@@ -11,6 +11,6 @@ public class Person {
     }
 
     public String sayHello() {
-        return "Hallo, ich bin " + getName();
+        return "Hallo, ich bin " + getName() + "!";
     }
 }
